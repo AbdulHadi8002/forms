@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body style="background-color: aquamarine">
+    <h1 style="text-align: center; background-color:blue>Application Form</h1>
+    <form action="form.php></form>
+    <h2 style="background-color: aqua;">A. general question</h2>
+    <label for="fname">proposed insureds name</label>
+    <input
+      type="text"
+      value="|   |   |   |   |   |   |   |   |   |   |   |"
+    />
+    <br />
+    <label for="fname">(please use capital letters)</label>
+    <input
+      type="text"
+      value="|   |   |   |   |   |   |   |   |   |   |   |"
+    />
+    <br />
+    <label for="dob">Birth Date</label>
+    <input
+      type="date"
+      aria-placeholder="_______/______/_______"
+      size="20"
+      required
+    />
+    <label for="Gender">Gender</label>
+    <input type="radio" name="Gender" value="Male" id="Male" />
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" value="Female" id="Female" />
+    <label for="Female">Female</label>
+    <br />
+    <br />
+    <label for="address">address</label>
+    <input type="text" size="70" minlength="20" maxlength="70" />
+    <br />
+    <br />
+    <label for="Phone Number">Phone Number</label>
+    <input type="number" size="28" />
+    <label for="Email">Email</label>
+    <input type="email" size="28" />
+    <br />
+    <br />
+    <label for="id Number">id number</label>
+    <input type="number" size 28 />
+    <label for="social security number">social security number</label>
+    <input type="number" size="28" />
+    <label for="status">status</label>
+    <input type="radio" name="status" value="single" id="single" />
+    <label for="single">single</label>
+    <input type="radio" name="status" value="married" id="married" />
+    <label for="married">married</label>
+    <input type="radio" name="status" value="divorced" id="divorced" />
+    <label for="divorced">divorced</label>
+    <input type="radio" name="status" value="others" id="others" />
+    <label for="others">others</label>
+    <br />
+    <br />
+    <label for="occupation">occupation</label>
+    <input type="text" size="25" />
+    <label for="are you retire">are you retire</label>
+    <input type="radio" name="Question" value="yes" id="yes" />
+    <label for="yes">yes</label>
+    <input type="radio" name="Question" value="no" id="no" />
+    <label for="no">no</label>
+    <h2 style="background-color: aqua">B. Type of health coverage</h2>
+    <table style="outline-color: aliceblue" border="1" width="1000">
+      <tr>
+        <td style="text-align: center"> people :<br> <input type="radio" name="people" value="yes" id="yes">  <label for="yes">yes</label> <br> <input type="radio" name="people" value="NO" id="NO">  <label for="NO">NO</label></td>
+        <td style="text-align: center"> Spouse :<br> <input type="radio" name="people" value="yes" id="yes">  <label for="yes">yes</label> <br> <input type="radio" name="people" value="NO" id="NO ">  <label for="NO">NO</label></td>
+        <td style="text-align: center"> Children :<br> <input type="radio" name="people" value="yes" id="yes">  <label for="yes">yes</label> <br> <input type="radio" name="people" value="NO" id="NO">  <label for="NO">NO</label></td>
+      </tr>
+    </table>
+    <p> Complete is spouse/children are proposed for insurance </p>
+    <table border="1"width=1000>
+      <tr>
+        <td style="text-align: center;" width = "25px">Names</td>
+        <td style="text-align: center;" width = "25px">SS.No</td>
+        <td style="text-align: center;" width = "25px">Relation to <br>proposed indured</td>
+        <td style="text-align: center;" width = "15px">Birth <br>Date</td>
+        <td style="text-align: center;" width = "15px">Age</td>
+        <td style="text-align: center;" width = "15px">Sex</td>
+      </tr>
+      <tr>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td></tr> <tr> <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td></tr> <tr> <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td></tr> <tr><td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="25"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td>
+        <td><input type="text" size="15"></td>
+      </tr>
+    </table>
+    <h2 style="background-color: aqua;">C. The Policy</h2>
+    <label for="Units">Units</label>
+    <input type="text" size="28">
+    <label for="Annual Premium">Annual Premium</label>
+    <input type="text" size="28"> 
+    <br>
+    <br>
+    <label for="Payment Mode">Payment Mode :</label>
+  <input type="radio" name="Suad" value="Annual" id="Annual">
+  <label for="Annual">Annual</label>
+  <input type="radio" name="Suad" value="Semi Annual" id="Semi Annual">
+  <label for="Semi Annual">Semi Annual</label>
+  <input type="radio" name="Suad" value="Monthly PAT (Complete)" id="Monthly PAT (Complete PAT Card)">
+  <label for="Monthly PAT (Complete)">Monthly PAT (Complete PAT Card)</label>
+  <br>
+  <br>
+  <label for="Cash with Application $">Cash with Application $</label>
+  <input type="text" size="47">
+  <br>
+  <br>
+  <label for="Plannned Model Premium">Plannned Model Premium</label>
+  <input type="text" size="47">
+  <form>
+  <h2 style="background-color: aqua (3,183,183);">Terms & Conditions</h2>
+  <p style="background-color: rgb(6, 188, 188);">Improvement should be measured regularly and assessed in <br> order for you to know what's benificial and what is not. This will <br> help you set new target</p>
+  <label for="Signature">Signature</label>
+  <input type="text" size="30">
+ </form>
+ <label for="Date">Date</label>
+ <input type="date" size="50">
+</form>
+</body>
+</html>
